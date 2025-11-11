@@ -1,0 +1,159 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+ line-height: 1.7;
+ color: #1a1a1a;
+ background: #ffffff;
+ padding: 60px 20px;
+ font-size: 17px;
+}
+
+.container {
+ max-width: 720px;
+ margin: 0 auto;
+}
+
+h1 {
+ font-size: 3.2rem;
+ margin-bottom: 8px;
+ font-weight: 700;
+ letter-spacing: -1px;
+ color: #000;
+}
+
+.subtitle {
+ font-size: 1.5rem;
+ margin-bottom: 50px;
+ color: #444;
+ font-weight: 400;
+ letter-spacing: -0.3px;
+}
+
+h2 {
+ font-size: 2rem;
+ margin: 70px 0 30px 0;
+ font-weight: 700;
+ border-bottom: 2px solid #e0e0e0;
+ padding-bottom: 12px;
+ letter-spacing: -0.5px;
+ color: #000;
+}
+
+p {
+ margin-bottom: 22px;
+ font-size: 1.05rem;
+ color: #2a2a2a;
+ line-height: 1.75;
+}
+
+.services-list {
+ background: #fafafa;
+ padding: 40px;
+ margin: 40px 0;
+ border-radius: 4px;
+ border: 1px solid #e8e8e8;
+}
+
+.services-list h3 {
+ font-weight: 700;
+ margin-bottom: 24px;
+ font-size: 1.3rem;
+ color: #000;
+ letter-spacing: -0.3px;
+}
+
+.service-item {
+ margin: 20px 0;
+ padding-left: 0;
+ line-height: 1.7;
+ color: #2a2a2a;
+}
+
+.service-item strong {
+ font-weight: 700;
+ color: #000;
+}
+
+.meta-note {
+ font-size: 0.95rem;
+ color: #666;
+ font-style: italic;
+ margin: 25px 0;
+ line-height: 1.6;
+}
+
+.pricing {
+ background: #f5f5f5;
+ border-left: 4px solid #000;
+ padding: 35px;
+ margin: 45px 0;
+ border-radius: 2px;
+}
+
+.pricing p {
+ margin-bottom: 15px;
+}
+
+.pricing strong {
+ font-weight: 700;
+ color: #000;
+}
+
+.contact {
+ margin-top: 70px;
+ padding: 45px;
+ background: #000;
+ color: #fff;
+ border-radius: 4px;
+}
+
+.contact h2 {
+ border: none;
+ color: #fff;
+ margin-top: 0;
+ margin-bottom: 25px;
+}
+
+.contact a {
+ color: #fff;
+ text-decoration: none;
+ border-bottom: 2px solid #fff;
+ font-weight: 600;
+}
+
+.contact a:hover {
+ opacity: 0.85;
+}
+
+.team-note {
+ background: #fffef5;
+ padding: 30px;
+ margin: 35px 0;
+ border-left: 4px solid #daa520;
+ border-radius: 2px;
+ font-size: 1rem;
+}
+
+.team-note strong {
+ font-weight: 700;
+ color: #000;
+}
+
+@media (max-width: 768px) {
+ body {
+ padding: 20px 10px;
+ }
+
+ h1 {
+ font-size: 1.8rem;
+ }
+
+ h2 {
+ font-size: 1.4rem;
+ }
+}
